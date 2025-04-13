@@ -1,0 +1,65 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+    font-size: 25px;
+}
+
+header{
+    background-color: #918f8f; 
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.container{
+    padding: 2em;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section {
+    margin-bottom: 2em;
+}
+
+.projects {
+    display: block;
+    margin: 0.5em 0;
+    color: #1e73e8;
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+ 
+
+.skill-box{
+    background-color: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1 1 200px;
+}
+
+.skill-name{
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.skill-bar{
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.skill-level{
+    height: 10px;
+    background-color: #4caf50;
+}
+
+
